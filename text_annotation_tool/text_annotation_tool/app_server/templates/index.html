@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Annotation Tool</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Text Annotation Tool</h1>
+        <p>Logged in as: <span id="user-id">{{ user }}</span></p>
+
+        <div id="file-controls">
+            <button id="prev-file">Previous File</button>
+            <button id="next-file">Next File</button>
+        </div>
+
+        <div id="text-container" contenteditable="true"></div>
+
+        <div id="annotation-controls">
+            <select id="suicide-class">
+                <option value="Suicide Ideation">Suicide Ideation</option>
+                <option value="Suicide Attempt">Suicide Attempt</option>
+            </select>
+            <textarea id="comment" placeholder="Add a comment"></textarea>
+            <button id="annotate">Annotate</button>
+        </div>
+
+        <div id="cognitive-factors">
+            <h3>Cognitive Decision-Making Factors</h3>
+            <label>Reason: <input type="text" id="reason"></label><br>
+            <label>Confidence: <input type="range" id="confidence" min="1" max="10"></label><br>
+            <label>Emotion: <input type="text" id="emotion"></label><br>
+            <label>Difficulty: <input type="text" id="difficulty"></label><br>
+            <label>Notes: <textarea id="notes"></textarea></label><br>
+            <label>Time Taken (in seconds): <input type="number" id="time-taken"></label>
+        </div>
+
+        <h3>Annotations</h3>
+        <ul id="annotations-list"></ul>
+
+        <button id="submit-annotation">Submit All Annotations</button>
+    </div>
+
+    <script>
+        let currentHighlight = null;
+        let highlightedElements = [];
+        let files = []; // Loaded files
+        let currentIndex = 0; // Current file index
+
+        document.addEventListener("mouseup", function(event) {
+            const selection = window.getSelection();
+            const selectedText = selection.toString().trim();
+
+            if (selectedText.length > 0) {
+                const range = selection.getRangeAt(0);
+                const span = document.createElement('span');
+                span.className = 'highlight';
+                span.appendChild(range.extractContents());
+                range.insertNode(span);
+
+                const closeBtn = document.createElement('button');
+                closeBtn.className = 'close';
+                closeBtn.innerHTML = '&times;';
+                closeBtn.onclick = function() {
+                    span.replaceWith(...span.childNodes); // Remove highlight but keep text
+                    closeBtn.remove(); // Remove close button
+                };
+                span.appendChild(closeBtn);
+
+                highlightedElements.push(span);
+                currentHighlight = span;
+            }
+        });
+
+        document.getElementById('annotate').onclick = function() {
+            if (currentHighlight) {
+                const suicideClass = document.getElementById('suicide-class').value;
+                const comment = document.getElementById('comment').value;
+                const reason = document.getElementById('reason').value;
+                const confidence = document.getElementById('confidence').value;
+                const emotion = document.getElementById('emotion').value;
+                const difficulty = document.getElementById('difficulty').value;
+                const notes = document.getElementById('notes').value;
+                const timeTaken = document.getElementById('time-taken').value;
+
+                currentHighlight.dataset.suicideClass = suicideClass;
+                currentHighlight.dataset.comment = comment;
+                currentHighlight.dataset.reason = reason;
+                currentHighlight.dataset.confidence = confidence;
+                currentHighlight.dataset.emotion = emotion;
+                currentHighlight.dataset.difficulty = difficulty;
+                currentHighlight.dataset.notes = notes;
+                currentHighlight.dataset.timeTaken = timeTaken;
+                currentHighlight.dataset.user = document.getElementById('user-id').textContent;
+
+                currentHighlight.title = `Class: ${suicideClass}\nComment: ${comment}`;
+
+                logAction('Annotated text', {
+                    text: currentHighlight.textContent,
+                    class: suicideClass,
+                    comment: comment,
+                    reason: reason,
+                    confidence: confidence,
+                    emotion: emotion,
+                    difficulty: difficulty,
+                    notes: notes,
+                    timeTaken: timeTaken
+                });
+
+                updateHighlightedTextDisplay();
+            }
+        };
+
+        function updateHighlightedTextDisplay() {
+            const annotationsList = document.getElementById('annotations-list');
+            annotationsList.innerHTML = ''; // Clear existing list
+            highlightedElements.forEach(span => {
+                const annotationItem = document.createElement('li');
+                annotationItem.textContent = `${span.textContent} (${span.dataset.suicideClass})`;
+                const factors = document.createElement('p');
+                factors.innerHTML = `
+                    Reason: ${span.dataset.reason} <br>
+                    Confidence: ${span.dataset.confidence} <br>
+                    Emotion: ${span.dataset.emotion} <br>
+                    Difficulty: ${span.dataset.difficulty} <br>
+                    Notes: ${span.dataset.notes} <br>
+                    Time Taken: ${span.dataset.timeTaken} seconds
+                `;
+                annotationItem.appendChild(factors);
+                annotationsList.appendChild(annotationItem);
+            });
+        }
+
+        document.getElementById('submit-annotation').onclick = function() {
+            const highlightedText = [];
+            highlightedElements.forEach(span => {
+                const start = document.getElementById('text-container').innerText.indexOf(span.textContent);
+                const end = start + span.textContent.length;
+
+                highlightedText.push({
+                    text: span.textContent,
+                    start: start,
+                    end: end,
+                    user_id: span.dataset.user,
+                    suicide_class: span.dataset.suicideClass,
+                    comment: span.dataset.comment,
+                    reason: span.dataset.reason,
+                    confidence: span.dataset.confidence,
+                    emotion: span.dataset.emotion,
+                    difficulty: span.dataset.difficulty,
+                    notes: span.dataset.notes,
+                    time_taken: span.dataset.timeTaken
+                });
+            });
+
+            fetch('http://127.0.0.1:8000/save_annotation', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    file: files[currentIndex],
+                    annotations: highlightedText
+                })
+            }).then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    alert('Annotations saved successfully!');
+                } else {
+                    alert('Failed to save annotations.');
+                }
+            }).catch(error => console.error('Error:', error));
+        };
+
+        document.getElementById('next-file').onclick = function() {
+            if (currentIndex < files.length - 1) {
+                currentIndex++;
+                loadFileContent(currentIndex);
+            }
+        };
+
+        document.getElementById('prev-file').onclick = function() {
+            if (currentIndex > 0) {
+                currentIndex--;
+                loadFileContent(currentIndex);
+            }
+        };
+
+        function loadFiles() {
+            fetch('http://127.0.0.1:8000/files')
+            .then(response => response.json())
+            .then(data => {
+                files = data.files;
+                if (files.length > 0) {
+                    loadFileContent(0);
+                }
+            });
+        }
+
+        function loadFileContent(index) {
+            fetch(`http://127.0.0.1:8000/file/${files[index]}`)
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('text-container').innerText = data.content;
+                highlightedElements = []; // Clear previous highlights
+                currentHighlight = null;
+                updateHighlightedTextDisplay();
+            });
+        }
+
+        function logAction(action, details) {
+            console.log(action, details); // Capture cognitive decision-making factors (for backend)
+        }
+
+        window.onload = function() {
+            loadFiles();  // Fetch files and load the first one automatically
+        };
+    </script>
+</body>
+</html>

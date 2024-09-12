@@ -1,0 +1,431 @@
+
+
+Admission Date:                   Discharge Date:
+
+Date of Birth:                    Sex:
+
+Service:
+
+
+
+
+HISTORY OF PRESENT ILLNESS:  Mrs. [**Known firstname 1022**] [**Known lastname 30375**] is a 39 year-old
+female patient who suffered bilateral lower extremity
+injuries.
+
+HOSPITAL COURSE:  Her right lower extremity underwent
+emergent management for an open fracture with debridement and
+ankle splinting fixation.  She subsequently presented for
+staged reconstruction of her distal tibia. She was taken to
+the operating room by Dr. [**Last Name (STitle) 1005**] on [**2179-9-3**] when she
+underwent open reduction internal fixation of the fibula and
+tibia for the pilon type fracture as well as syndesmotic
+repair. She tolerated the procedure well and was taken to the
+recovery room without incident.  She had previously undergone
+open reduction internal fixation of the left tibia by Dr.
+[**Last Name (STitle) **] on [**2179-8-21**].  She was eventually discharged to rehab
+with clean wounds, to follow-up with Dr. [**Last Name (STitle) 1005**].
+
+
+
+DISCHARGE MEDICATIONS:  Anticoagulation in the form of
+Lovenox and pain control medication in the form of oral
+narcotics.
+
+
+
+                        [**First Name11 (Name Pattern1) **] [**Last Name (NamePattern1) **], MD [**MD Number(2) 16347**]
+
+Dictated By:[**Last Name (NamePattern1) 16348**]
+MEDQUIST36
+D:  [**2179-12-28**] 23:02:51
+T:  [**2179-12-29**] 04:15:32
+Job#:  [**Job Number 63137**]
+
+
+[**2179-8-23**] 3:08 PM
+ CHEST (PA & LAT)                                                Clip # [**Clip Number (Radiology) 59200**]
+ Reason: ? PNA
+ Admitting 
+
+Diagnosis: S/P FALL
+ ______________________________________________________________________________
+ [**Hospital 2**] MEDICAL CONDITION:
+  38 year old woman with s/p trauma tachy and desat.
+ REASON FOR THIS EXAMINATION:
+  ? PNA
+ ______________________________________________________________________________
+                                 FINAL REPORT
+ Comparison is made to trauma chest radiograph of [**2179-8-21**].
+
+ 
+
+INDICATION:  Tachypnea and oxygen desaturation.
+
+ Allowing for scoliosis, the heart size and mediastinal contours are normal.
+ There has been development of an area of patchy consolidation in the right
+ infrahilar region, which may be due to acute aspiration, or developing
+ pneumonia.  The remainder of the lungs are clear, and there is no evidence of
+ pleural effusion or pneumothorax.
+
+
+
+
+[**2179-8-21**] 1:56 PM
+ KNEE (AP, LAT & OBLIQUE) BILAT; ANKLE (AP, MORTISE & LAT) BILAT Clip # [**Clip Number (Radiology) 58853**]
+ FOOT AP,LAT & OBL BILAT
+ Reason: s/p 25 foot fall with gross deformitites
+ ______________________________________________________________________________
+ [**Hospital 2**] MEDICAL CONDITION:
+  38 year old woman with
+ REASON FOR THIS EXAMINATION:
+  s/p 25 foot fall with gross deformitites
+ ______________________________________________________________________________
+                                 FINAL REPORT
+ 
+
+INDICATION:  25 foot fall with gross deformities.
+
+ COMPARISON:  None.
+
+ TECHNIQUE:  Two views of right and left knees, two views of the right and left
+ ankle, two views of right and left foot.
+
+ FINDINGS:
+
+ Left lower extremity:
+ There is a displaced, angulated, comminuted fracture of the distal left tibial
+ diaphysis, with lateral displacement and anterior angulation of the distal
+ fracture fragment with respect to the proximal fracture fragment and with
+ several smaller comminuted fracture fragments. There is a laterally displaced,
+ comminuted fracture of the left distal fibular diaphysis.  There is
+ approximately 1.6 cm of override of the fibular fracture fragments and
+ approximately 1.4 cm of override of the tibial fracture fragments.  No left
+ knee joint effusion is identified.  No fractures are identified about the left
+ knee or visualized portion of the distal left femur. The left knee joint space
+ is preserved.
+
+ The left ankle mortise appears congruent.  Visualization of fine osseous
+ detail within the left ankle is limited by the overlying cast material.
+
+ LEFT FOOT, TWO VIEWS:  Visualization of fine detail is limited by the presence
+ of overlying cast material.  There is well corticated unusual contour of the
+ left fifth metatarsal, possibly representing old healed trauma or congenital
+ variant.  A questionable lucency overlying the proximal aspect of the distal
+ phalanx of the first digit likely represents artifact from overlying cast
+ material.  The joint spaces are preserved.
+
+ RIGHT LOWER EXTREMITY:  Visualization of fine osseous detail is limited by the
+ presence of overlying cast material.  There is a displaced fracture of the
+ distal right tibial metaphysis, with medial displacement of the distal
+ fracture fragment with respect to the proximal fracture fragment and with
+ approximately 5 cm of override.  There is an additional displaced and
+ angulated fracture of the distal right fibular diaphysis, with medial
+ displacement and anterior angulation of the distal fracture fragment with
+ respect to the proximal fracture fragment.  There is approximately 1.2 cm of
+ override.  No definite joint effusion is identified at the right knee and no
+ fractures are identified in the visualized portion of the distal right femur
+ or proximal right tibia or fibula.  There is a suggestion of separation of the
+                                                             (Over)
+
+ [**2179-8-21**] 1:56 PM
+ KNEE (AP, LAT & OBLIQUE) BILAT; ANKLE (AP, MORTISE & LAT) BILAT Clip # [**Clip Number (Radiology) 58853**]
+ FOOT AP,LAT & OBL BILAT
+ Reason: s/p 25 foot fall with gross deformitites
+ ______________________________________________________________________________
+                                 FINAL REPORT
+ (Cont)
+ distal tibial and fibular articulation at the ankle mortise although this may
+ be positional in nature.
+
+ RIGHT FOOT, TWO VIEWS:  Visualization of fine osseous detail is limited by the
+ presence of overlying cast material.  Visualization of the talus is markedly
+ limited by the presence of overlying tibial and fibular fracture fragments.
+ There is a linear lucency within the two sets of sesamoid bones at the first
+ MTP joint, likely representing bipartite sesamoid although fractured sesamoid
+ is not excluded.  No other definite fractures are identified.
+
+ 
+
+[**2179-9-3**] 10:28 AM
+ ANKLE (2 VIEWS) IN O.R. RIGHT; LOWER EXTREMITY FLUORO WITHOUT RADIOLOGIST IN O.R. RIGHTClip # [**Telephone/Fax (1) 59254**]
+ Reason: EXFIX REMOVAL
+ ______________________________________________________________________________
+                                 FINAL REPORT
+ RIGHT ANKLE INTRAOPERATIVE IMAGES.
+
+ 
+
+HISTORY:  Status post internal fixation device removal and ORIF.
+
+ FINDINGS/
+
+[**2179-8-21**] 1:32 PM
+ CT C-SPINE W/O CONTRAST; CT RECONSTRUCTION                      Clip # [**Clip Number (Radiology) 59035**]
+ Reason: eval of neck
+ ______________________________________________________________________________
+ [**Hospital 2**] MEDICAL CONDITION:
+  38 year old woman with fall
+ REASON FOR THIS EXAMINATION:
+  eval of neck
+ No contraindications for IV contrast
+ ______________________________________________________________________________
+ WET READ: SADk SAT [**2179-8-21**] 2:23 PM
+  no fx
+ ______________________________________________________________________________
+                                 FINAL REPORT
+ 
+
+HISTORY:  Status post 30-feet fall.
+
+ TECHNIQUE:  AXIAL IMAGES THROUGH THE CERVICAL SPINE WITH CORONAL AND SAGITTAL
+ REFORMATS:  There are no acute fractures.  There is no prevertebral soft
+ tissue swelling.  There is slight loss of the normal cervical lordotic curve.
+ There is minimal degenerative change in the mid cervical spine.  There is no
+ prevertebral soft tissue swelling.  The outline of the thecal sac appears
+ normal.
+
+ 
+
+[**2179-8-21**] 1:33 PM
+ CT CHEST W/CONTRAST; CT ABDOMEN W/CONTRAST                      Clip # [**Clip Number (Radiology) 58852**]
+ CT PELVIS W/CONTRAST; CT 150CC NONIONIC CONTRAST
+ CT RECONSTRUCTION
+ Reason: CT chest and abdomen/pelvis
+ Field of view: 36 Contrast: OPTIRAY Amt: 150
+ ______________________________________________________________________________
+ [**Hospital 2**] MEDICAL CONDITION:
+  38 year old woman s/p fall
+ REASON FOR THIS EXAMINATION:
+  CT chest and abdomen/pelvis
+ No contraindications for IV contrast
+ ______________________________________________________________________________
+ WET READ: SADk SAT [**2179-8-21**] 2:19 PM
+  no acute pathology
+ ______________________________________________________________________________
+                                 FINAL REPORT
+ 
+
+HISTORY:  Status post 30-feet fall.
+
+ TECHNIQUE:  Axial images through the chest, abdomen and pelvis with IV
+ contrast.  Multiplanar reformatted images were obtained.  Optiray was
+ administered due to patient debility.
+
+ CT OF THE CHEST WITH CONTRAST:  The aorta is normal in appearance.  The heart
+ and pericardium are normal.  There are no pleural or pericardial effusions,
+ and no pneumothorax.  There is bibasilar dependent atelectasis.  There are no
+ pathologically enlarged axillary, hilar, or mediastinal lymph nodes.  The
+ airways are patent to the level of the segmental bronchi bilaterally.  Note is
+ made of bilateral breast implants.
+
+ CT OF THE ABDOMEN WITH CONTRAST:  The liver, gallbladder, spleen, pancreas,
+ adrenal glands, and left kidney are normal.  The unopacified loops of large
+ and small bowel are normal.  The descending aorta is normal.  The right kidney
+ is atrophic and contains a 2mm punctate calcification.  There is no free fluid
+ or free air in the abdomen. There are no pathologically enlarged mesenteric or
+ retroperitoneal lymph nodes.
+
+ CT OF THE PELVIS WITH CONTRAST:  The uterus and ovaries are normal.  There is
+ no free air or free fluid in the pelvis.  The unopacified loops of bowel are
+ normal.  There are no pathologically enlarged inguinal or pelvic lymph nodes.
+ There is a Foley catheter within the bladder.
+
+ BONE WINDOWS:  There are no fractures within the ribs or visualized thoracic,
+ lumbar, or sacral spine.  There is a convex right thoracic scoliosis.
+
+ 
+
+[**2179-8-21**] 1:32 PM
+ CT HEAD W/O CONTRAST                                            Clip # [**Clip Number (Radiology) 59006**]
+ Reason: eval s/p fall
+ ______________________________________________________________________________
+ [**Hospital 2**] MEDICAL CONDITION:
+  38 year old woman with fall
+ REASON FOR THIS EXAMINATION:
+  eval s/p fall
+ No contraindications for IV contrast
+ ______________________________________________________________________________
+ WET READ: SADk SAT [**2179-8-21**] 1:52 PM
+  no bleed or fx
+ ______________________________________________________________________________
+                                 FINAL REPORT
+ 
+
+HISTORY:  Status post fall from 30 feet.
+
+ NON-CONTRAST HEAD CT:  There is no intra- or extra-axial hemorrhage, shift of
+ normally midline structures, mass effect, or hydrocephalus.  The [**Doctor Last Name 37**]-white
+ matter differentiation remains intact.  The osseous structures are normal.
+ There are polyps Vs. retention cysts in both maxillary sinuses.  There is
+ minimal mucosal thickening in the sphenoid sinus.  The other sinuses are well
+ aerated.
+
+ 
+
+[**2179-8-21**] 1:24 PM
+ TRAUMA #2 (AP CXR & PELVIS PORT)                                Clip # [**Clip Number (Radiology) 58851**]
+ Reason: MVA
+ ______________________________________________________________________________
+                                 FINAL REPORT
+ 
+
+INDICATION:  Status post MVA.
+
+ COMPARISON:  None.
+
+ TECHNIQUE:  AP portable pelvis and AP portable supine chest.
+
+ FINDINGS:
+
+ AP CHEST:  Visualization of fine osseous and soft tissue detail is limited by
+ the presence of overlying trauma board artifact.  There is S-shaped thoracic
+ scoliosis.  The heart size is within normal limits.  The mediastinal contours
+ are probably within normal limits allowing for supine positioning.  No
+ pneumothorax.  No focal pulmonary consolidation or pleural effusion.  No
+ fractures are identified within the visualized osseous structures.
+
+ AP PELVIS:  Visualization of fine osseous and soft tissue detail is limited by
+ the presence of overlying trauma board artifact.  Allowing for this, no
+ fractures are identified within the pelvis and visualized portions of the
+ proximal femurs.  The visualized bowel gas pattern appears unremarkable.  A
+ linear lucency overlying the left transverse process of L4 vertebra is
+ contiguous with an adjacent soft tissue lucency and not felt to represent a
+ fracture.
+
+ 
+
+[**2179-8-22**] 12:49 PM
+ CT LOW EXT W/O C RIGHT; CT RECONSTRUCTION                       Clip # [**Clip Number (Radiology) 58854**]
+ Reason: thin cuts rt ankle s/p tib fib
+ Admitting 
+
+Diagnosis: S/P FALL
+ ______________________________________________________________________________
+ [**Hospital 2**] MEDICAL CONDITION:
+  38 year old woman with s/p rt tib fib fx, ex fix
+ REASON FOR THIS EXAMINATION:
+  thin cuts rt ankle s/p tib fib
+ No contraindications for IV contrast
+ ______________________________________________________________________________
+                                 FINAL REPORT
+ 
+
+INDICATION:  Fracture.
+
+ COMPARISON:  Radiograph [**2179-8-21**].
+
+ TECHNIQUE:  Non-contrast CT through the right lower extremity at 1.25 slice
+ thickness with coronally and sagittally reformatted images.
+
+ FINDINGS:  An external fixation device is present.  There is an oblique
+ fracture through the distal fibular shaft, with approximately 6 mm of lateral
+ displacement of the distal fracture fragment.  There is an obliquely oriented
+ fracture line through the posterior distal tibia, with approximately 3 mm of
+ posterior displacement of the distal fragment, and approximately 4 mm of
+ superior dislocation of that same fragment, which widens the posterior ankle
+ joint space.  A tiny fracture fragment is present within the joint space.
+ Additionally, there is a transverse fracture through the medial malleolus,
+ with approximately 1 cm of separation of the anterior aspect of the fracture.
+ Geographic, slightly sclerotic lesion along the medial aspect of the proximal
+ tibial metadiaphysis is again noted, likely representing residua of non-
+ ossifying fibroma.
+
+ Small amounts of gas are visible within the ankle joint and within the soft
+ tissues surrounding the ankle joint.
+
+ 
+
+[**2179-8-21**] 4:10 PM
+ LOWER EXTREMITY FLUORO WITHOUT RADIOLOGIST; TIB/FIB (AP & LAT) LEFTClip # [**Telephone/Fax (1) 59090**]
+ ANKLE (AP, LAT & OBLIQUE) RIGHT IN O.R.; -77 BY DIFFERENT PHYSICIAN
+ [**Name Initial (PRE) **]: BILAT OPEN TIB-FIB FX'S
+ Admitting 
+
+Diagnosis: S/P FALL
+ ______________________________________________________________________________
+                                 FINAL REPORT
+ 
+
+HISTORY:  Bilateral open tib-fib fractures.
+
+ Fluoroscopic assistance provided to the surgeon in the OR without the
+ radiologist present.  Twelve spot views were obtained.  These demonstrate
+ steps related to fixation of left tibial and right ankle fractures. Assessment
+ of fine bony details limited by technique.
+
+
+
+[**2179-9-2**] 10:17 AM
+ CHEST (PRE-OP PA & LAT)                                         Clip # [**Clip Number (Radiology) 59253**]
+ Reason: pre-op
+ ______________________________________________________________________________
+ [**Hospital 2**] MEDICAL CONDITION:
+  38 year old woman with
+ REASON FOR THIS EXAMINATION:
+  pre-op
+ ______________________________________________________________________________
+                                 FINAL REPORT
+ CHEST, TWO VIEWS
+
+ 
+
+INDICATION:  38-year-old woman with pre-operation.
+
+ COMMENTS:  Portable erect AP radiograph of the chest is reviewed, and compared
+ with the previous study dated [**2179-8-23**].
+
+ The previously identified right lower lobe opacity has been dissolved.  The
+ lungs are clear.  The heart and mediastinum are within normal limits.
+
+ 
+
+TSICU ADM NOTE 1900-0700
+Pt is 38yo female s/p jump/suicide attempt from second story porch (approx 30ft). +LOC. Injuries: right open tib/fib fx with loss of distal pulse, left closed tib/fib fx. +ETOH. Urine tox not taken until pt was post-op, therefore was positive for opiates and benzos. Neg for other tox screen. Pt to OR for washout and ex fix placement of RLE, ORIF to LLE. Extubated and adm to TSICU postop.
+
+NEURO: Pt A+Ox3. Cooperative, but anxious. Follows commands. C/o [**6-30**] pain to BLE. +CSM/+PP to BLE (verified by doppler). Toes initially cool to touch, but warmed throughout night. MSO4 PCA ineffective, pt changed to Dilaudid PCA 0.25/6/2.5 with effect. CIWA scale done q1hr d/t h/o increasing ETOH abuse. Highest result=5. Pt received total 0.5mg ativan for anxiety, no other s/s withdrawal at this time. Pt evaluated by psych; they will continue to follow throughout pt's admission. 1:1 sitter at bedside.
+
+RE
+
+SP: Desats quickly when sleeping or when O2 not immediately near face. Pt on 3-5LNC + 0.50-0.70%FiO2 on face tent. +Smoker, approx 0.5-1ppd. LS CTA bilat. Sats 94-97%.
+
+CV: Arrived to TSICU tachycardic; HR 120s-130s ST. HR decreased to 100s-110s overnight with IVF bolus and pain med. BP 90s-110s/40s. No ventricular ectopy noted.
+
+HEME: H/H 30-32. Lovenox started.
+
+GI: Abd soft, nontender/nondistended. Denies N/V. NPO at this time.
+
+GU: Adequate u/o via shift. 1L IVF bolus x 1 for tachycardia and negative I/O balance. Ca+ and Mg+ repleted.
+
+ID: Tmax 100.7. On kefzol.
+
+ENDO: Glucose WNL per serum labs.
+
+SKIN: RLE ex-fixes with xerofor/kerlix. LLE dsd's intact. Back/buttocks no breakdown noted.
+
+SOCIAL: Pt is single mom with 3 children. Oldest child 18yo, recently moved to CA. 15yo son lives with pt's mother, 10yo son still at home. Pt states shes purposely "jumped off of the porch," however at this time states that she is "embarrassed" about situation. Pt denies and previous suicide attempts, but has h/o depression/anxiety. [**Name (NI) 25**] mother reports that pt has had an increased problem with ETOH, and was recently pulled over and arrested for DUI. Per pt's mother, DSS became involved because pt left youngest son home alone at time of incident. This son is now staying with pt's mother while pt is hospitalized. [**Name (NI) 25**] mother states she is going to file for emergency custody of youngest child (pt is unaware of this at this time). [**Name (NI) 25**] mother stated several times during conversation with this RN that pt "definitely has a problem (with drinking) and needs to go to rehab." Psych in to evaluate; will cont to follow.
+
+ASMT: Pt s/p 30ft jump/suicide attempt. Bilat tib/fib fx's. CSM checks WNL overnight.
+
+
+
+PLAN: Cont to monitor vs, csm checks to BLE and obs for compartement syndrome, pain/anxiety mgmt, PT/mobility, SW and psych consults, 1:1 sitter at all times for safety until further notice from psych, ?anticipate d/c to floor in AM.
+
+
+T/SICU Additional Transfer Note
+Brief ROS-
+
+[**Name (NI) **] Pt. is awake and oriented x 3. She has been appropriate and cooperative all shift. She moves both arms normally, wiggles toes bilat on command. C/O mod to severe pain bilat legs all shift. PCA dilaudid continues. C/O of itching, states she had "ithching" with vicadon  when on pain meds for back surgery yrs ago. Teary when talking about what she did to bring her to the hospital, "I'm ashamed of myself, it was such a selfish thing to do" PERL. C collar dc'd this am, per T/SICU tm, no pain in her neck on exam.
+
+CV- Stable BP and HR. Skin warm and dry. Palpable periph pulses of the left foot, dopplerable DP of the rt. Rt PT pulse too difficult to doppler. Feet warm to touch.
+
+Resp- Adequate sats on 5L NC. No c/o dyspnea. Bilat BS are reletively clear.
+
+ID- Temp 100. Cefazolin continues.
+
+Renal- Minimal u/o via foley, 20cc/hr.
+
+Skin- Intact. Bilat legs with drsg [**Name5 (PTitle) 16**] hardware. Rt ankle has mod swelling, mod bldy drg under leg. Left leg has DSD over knee, same drg to drsg. Lower left leg has a tegaderm over incision, required changing x 1, saturated through 4x4 and statred pooling in tegaderm.
+
+[**Name (NI) 139**] Mother and 2 sons in to visit today. Children with pt.'s mom. DSS here to visit pt., investigating the case, in light of situation.
+Psych following pt. Sitter with pt. all shift.

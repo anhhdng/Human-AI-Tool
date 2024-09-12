@@ -1,0 +1,323 @@
+
+
+Admission Date:  [**2155-12-23**]              Discharge Date:   [**2155-12-26**]
+
+Date of Birth:  [**2134-10-14**]             Sex:   F
+
+Service: MEDICINE
+
+
+
+Allergies:
+Patient recorded as having No Known Allergies to Drugs
+
+Attending:[**Known firstname 1148**]
+Chief Complaint:
+overdose, suicide attempt
+
+Major Surgical or Invasive 
+
+Procedure:
+Intubation
+
+
+
+
+History of Present Illness:
+21 yo F ingested tylenol PM, clonazepam, lorazepam, and alcohol
+found with altered mental status. [**First Name8 (NamePattern2) **] [**Last Name (NamePattern1) 69629**] of the Office of
+Residential Life at [**University/College 14925**]placed a call to campus
+police at 4:22PM. She found the patient on the bathroom of the
+dorm semi-conscious, incoherent, unable to communicate. It
+appeared that she had gone to the bathroom to vomit, but there
+was no evidence of active vomiting. The patient had a sluggish
+response to questions, and was unable to state her last name.
+The patient stated that she had taken approximately [**6-21**] pills
+around 3PM, but was very confused and lethargic. Ms. [**Name13 (STitle) 69629**]
+found 2 empty Rx bottles of lorazepam and clonazepam, an empty
+bottle of tylenol PM, an open bottle of advil, and an open
+bottle of vodka approximately [**2-14**] full in the patient's dorm
+room. The patient confirmed that she had consumed these items.
+The bottles were left on site, so the dosages are unknown.
+.
+On arrival to the ED, the patient was tachypneic and dusky with
+dilated pupils bilaterally per ED resident. She received anzemet
+and propofol and was intubated for airway protection due to
+depressed mental status. She got charcoal 100 mg via OG tube.
+Toxicology was consulted. She received a loading dose of
+N-acetyl-p-aminophenol in the ED.
+
+
+
+
+Past Medical History:
+Depression with 2 other attempts in the past, one of them an
+ingestion. She was treated previously at [**Hospital3 1810**] by
+Dr. [**First Name8 (NamePattern2) **] [**Last Name (NamePattern1) **].
+
+
+
+Social History:
+Her parents are from [**Country 3594**]. Is a student at BU, living in a
+single, and has a work study job. She was doing well in school
+and final exams are next week. She has been fighting with her
+boyfriend lately. She drinks socially, and used to smoke
+marijuana according to her father. She was prescribed ativan in
+the past for a fear of flying.
+She has supportive parents and a 17yo sister who live in the
+area.  She was sexually abused in the past.
+
+
+
+Family History:
+Denies any family history of psychiatric issues or substance
+abuse
+
+
+
+Physical Exam:
+VS: 97.0 76 112/60 12 100% on AC TV 400 FiO2 40% RR 14 PEEP 5
+Gen: appearing her stated age, intubated and sedated
+HEENT: MMM, ET tube in place, PERRL, nonicteric
+Cor: RRR no M/R/G
+Pulm: CTAB no crackles bilaterally
+Abd: +BS, soft NT ND. No hepatosplenomegaly. + umbilical ring
+Ext: WWP, no edema, DP 2+ bilaterally
+GU: clitoral ring
+Skin: no rashes or jaundice, bilateral gluteal tattoos
+Neuro: + gag on deep suction, downgoing toes bilaterally, moving
+all 4 extremities
+
+
+Pertinent Results:
+[**2155-12-23**] 05:10PM   ASA-NEG ETHANOL-90* ACETMNPHN-113.2*
+bnzodzpn-NEG barbitrt-NEG tricyclic-NEG
+[**2155-12-23**] 05:10PM   WBC-5.6 RBC-4.65 HGB-14.4 HCT-39.6 MCV-85
+MCH-31.1 MCHC-36.5* RDW-12.9
+[**2155-12-23**] 05:10PM   NEUTS-63.5 LYMPHS-28.2 MONOS-7.1 EOS-0.5
+BASOS-0.6
+[**2155-12-23**] 05:10PM   PLT COUNT-379
+[**2155-12-23**] 05:10PM   PT-13.7* PTT-30.5 INR(PT)-1.2*
+[**2155-12-23**] 05:10PM   ALBUMIN-5.1*
+[**2155-12-23**] 05:10PM   LIPASE-38
+[**2155-12-23**] 05:10PM   ALT(SGPT)-13 AST(SGOT)-20 ALK PHOS-61
+AMYLASE-77 TOT BILI-0.3
+[**2155-12-23**] 05:10PM   estGFR-Using this
+[**2155-12-23**] 05:10PM   GLUCOSE-96 UREA N-8 CREAT-0.7 SODIUM-141
+POTASSIUM-3.7 CHLORIDE-103 TOTAL CO2-23 ANION GAP-19
+[**2155-12-23**] 05:45PM URINE  BLOOD-NEG NITRITE-NEG PROTEIN-NEG
+GLUCOSE-NEG KETONE-NEG BILIRUBIN-NEG UROBILNGN-NEG PH-6.5
+LEUK-NEG
+[**2155-12-23**] 08:16PM   WBC-3.6* RBC-3.83* HGB-11.6* HCT-32.8* MCV-86
+MCH-30.4 MCHC-35.5* RDW-13.0
+[**2155-12-23**] 08:16PM   ALT(SGPT)-10 AST(SGOT)-19 LD(LDH)-180
+CK(CPK)-261* ALK PHOS-49 TOT BILI-0.3
+
+[**12-23**] CXR: 
+
+IMPRESSION:The ET tube tip is 2.5 cm above the
+carina. The NG tube tip is within the stomach. The heart size
+and the mediastinum are unremarkable. The lungs are clear. No
+sizeable pleural effusion is identified.
+
+[**12-25**] CXR: Heart size is normal. There is an ill-defined focal
+opacity overlying left heart that likely represents atelectais
+or possibly aspiration in L.L.L.
+
+
+Brief Hospital Course:
+This is a 21 y/o F w/hx of depression and prior suicide attempts
+who presented to the ED on [**12-23**] after taking an unknown amount
+of tylenol pm, clonazepam, ativan, and alcohol.  She was
+intubated in the ED for altered mental status and was admitted
+to the [**Hospital Unit Name 153**].  Her initial tylenol level was 113, EtOH 90.  She
+was given NAC until her tylenol was zero.  She was exutubated
+the day after admission.  She has been seen by psychiatry who
+feel she warrants psychiatric admission now that her medical
+issues have resolved.
+
+#Overdose:  Currently with negative acetaminophen level, benzo
+intoxication has worn off.
+.
+# Fever:  Had one post intubation.  [**Month (only) 116**] have degree of chemical
+pneumonitis from aspiration event.  No prior sx suggestive of
+influenza.  Likely that sore throat [**2-13**] intubation and not strep
+(no posterior pharyngeal exudate, no LAD).  UA clean.
+Leukocytosis resolved; no role for antibiotics at this time.
+.
+# Anemi
+
+a: Unknown baseline. Likely due to aggressive IVF, vs
+chronically low from menstruation.  Iron studies suggestive of
+anemia of chronic disease.  Should get repeated at a later date.
+.
+# Tachycardi
+
+a: Likely due to dehydration vs low-grade temp.
+Improved with IV fluids.
+
+
+
+
+Discharge Medications:
+None
+
+Discharge Disposition:
+Extended Care
+
+Facility:
+[**Hospital3 1196**] - [**Location (un) 745**]
+
+
+
+Discharge Diagnosis:
+suicidal overdose, tylenol PM, clonazepam, alcohol
+pneumonitis post intubation
+anemia, likely from aggressive volume resuscitation
+
+
+Discharge Condition:
+Good
+
+
+
+
+Discharge Instructions:
+Please use the psychiatric facility.
+Please follow up with a primary care doctor to get your
+bloodwork checked to see that the anemia has resolved.
+
+
+
+[**2155-12-25**] 2:11 PM
+ CHEST (PORTABLE AP)                                             Clip # [**Clip Number (Radiology) 98623**]
+ Reason: please eval for interval change
+ Admitting 
+
+Diagnosis: OVERDOSE
+ ______________________________________________________________________________
+ [**Hospital 2**] MEDICAL CONDITION:
+  21 year old woman with overdose
+ REASON FOR THIS EXAMINATION:
+  please eval for interval change
+ ______________________________________________________________________________
+                                 FINAL REPORT
+ CHEST, SINGLE AP FILM
+
+ History of overdose.
+
+ Heart size is normal. There is illdefined focal opacity overlying left heart
+ that likely represents atelectais or possibly aspiration in L.L.L.
+
+
+
+
+[**2155-12-23**] 5:29 PM
+ CHEST (PORTABLE AP)                                             Clip # [**Clip Number (Radiology) 98278**]
+ Reason: eval for tube placement
+ ______________________________________________________________________________
+ [**Hospital 2**] MEDICAL CONDITION:
+  21 year old woman with OD, s/p intubation OG placement
+ REASON FOR THIS EXAMINATION:
+  eval for tube placement
+ ______________________________________________________________________________
+                                 FINAL REPORT
+ 
+
+CLINICAL HISTORY:  21-year-old female with overdose, status post intubation
+ and OG tube placement.  Evaluate tube placement.
+
+ COMPARISON:  None.
+
+ TECHNIQUE:  Portable AP chest radiograph.
+
+ FINDINGS:  The lungs are clear.  ET tube terminates 3.3 cm above the carina. A
+ feeding tube is seen in the fundus of the stomach.  The extreme tip has been
+ excluded from the image.  The cardiomediastinal contour and hila are normal.
+ No pleural effusion or pulmonary vascular redistribution is present.
+
+ 
+
+[**2155-12-23**] 9:55 PM
+ CHEST (PORTABLE AP); -77 BY DIFFERENT PHYSICIAN                 [**Name Initial (PRE) 5**] # [**Clip Number (Radiology) 98440**]
+ Reason: please eval ETT placement
+ Admitting 
+
+Diagnosis: OVERDOSE
+ ______________________________________________________________________________
+ [**Hospital 2**] MEDICAL CONDITION:
+  21 year old woman with OD, s/p intubation OG placement
+ REASON FOR THIS EXAMINATION:
+  please eval ETT placement
+ ______________________________________________________________________________
+                                 FINAL REPORT
+ REASON FOR EXAMINATION:  Evaluation of the ET tube placement.
+
+ 
+
+[**2155-12-24**] 7:34 PM
+ CHEST (PORTABLE AP)                                             Clip # [**Clip Number (Radiology) 98622**]
+ Reason: eval for PNA
+ Admitting 
+
+Diagnosis: OVERDOSE
+ ______________________________________________________________________________
+ [**Hospital 2**] MEDICAL CONDITION:
+   21 year old woman with fever, tachycardia
+ REASON FOR THIS EXAMINATION:
+  eval for PNA
+ ______________________________________________________________________________
+                                 FINAL REPORT
+ 
+
+HISTORY:  21-year-old woman with fever and tachycardia.
+
+ COMPARISON:  [**2155-12-23**].
+
+ CHEST AP:  Cardiac, mediastinal, and hilar contours are within normal limits.
+ Pulmonary vasculature is unremarkable.  The lungs are clear.  There are no
+ pleural effusions.  Osseous and soft tissue structures are unremarkable.
+
+ 
+
+NPN 1900 -0700
+21 YO CAME TO ED VIA EMS AFTER ATTEMPTED OD W/ KLONAPIEN, ATIVAN (??AMT) TYLENOL PM AND ETOH.PT WAS INTUBATED IN ED FOR AIRWAY PROTECTION , GIVEN CHARCOL AND WAS SENT TO MICU FOR FURTHER TREATMENT.
+
+NEURO: LIGHTLY SEDATED ON PROPOFOL @ 70MCG/KG/MIN. WILL OCC THASH ABOUT ,RELIEVED W/ SMALL BOLUSES. POS COUGH AND GAG NOTED.
+
+RE
+
+SP: ON A/C 400X 14 40% PEEP 5. SX FOR SCANT AMT SECRETIONS.MAINT SATS 97-100%.
+
+C/V:SR-ST NO ECTOPY, BP STABLE 1 TEENS-120'S.
+
+F/E/N:UO 80-100 CC/HR .OGT CLAMPED . RECIEVED  600cc OF BANANA BAG, PORT NEEDED FOR ACETLYECYSTIENE GTT.NO STOOL OVER NOC.EVENING LYTES WERE WNL, AM LABS PENDING.
+
+
+
+PLAN: CONT MECH VENT , WEAN AND EXTUBATE IF POSSIBLE PRN,CONT NAC GTT, TO BE SEEN BY PSYCH WHEN AWAKE. WILL NEED 1:1 SITTER .EMOTIONAL SUPPORT FOR FAMILY.
+
+
+Resp [**Name (NI) 10195**] Note, Pt remains on current vent settings. See vent flow sheet for details.Sedated with propofol.RSBI done on 0 peep/5 ips 50.5.Will cont to monittor resp status. Wean to extubate.
+
+
+altered level of coping
+d: pt medically stable and called out to medical floor when bed is available. propofol gtt was d/c'd this am and pt was successfully extubated at 1030 and remains on o2 at 2l/m nc with o2 sats > 98% and rr low 20's.lungs cta bil. hr has been tachycardic despite 2 boluses of ns. pt medicated with clonepin x1. pschyatrist has seen pt and awaiting final recommendations. pt has 1: 1 observer at bedside. diet has been advanced to reg diet which she is tolerating well without c/o n/v. foley cath in place with adequate hourly uo. k+ <4.0 and pt was medicated with 40 meq po kcl x1. will continue to follow electrolytes and replete as needed. offer emotional support to pt and family and maintain suicide precautions.
+
+
+NPN 1900-0700
+EVENTS:T MAX 102.5 PAN CX AND GIVEN MOTRIN , T CURRENT 97.5.CONT ON 1:1 SITTER.
+
+NEURO: AXOX3, DENIES PAIN. DENIES SI AT THIS TIME.PLEASANT AND COOPERTIVE.
+
+RE
+
+SP:LCTA, ON 2L NC SATS 98-100%.
+
+C/V:ST NO ECTOPY, BP STABLE.
+
+F/E/N: REPLETED LYTES W/ 40 K PO FOR K OF 3.1 AND 2 PKTS PHOS.UO HAS BEEN ~ 150-200CC HR, NO STOOL OVER NOC.
+
+
+
+PLAN: CONT TO MONITOR HEMODYNAMICS, C/O TO FLOOR.

@@ -1,0 +1,322 @@
+
+
+Admission Date:  [**2162-6-1**]              Discharge Date:   [**2162-6-2**]
+
+Date of Birth:  [**2114-6-19**]             Sex:   M
+
+Service: MEDICINE
+
+
+
+Allergies:
+Wellbutrin
+
+Attending:[**First Name3 (LF) 2485**]
+Chief Complaint:
+medication overdose
+
+Major Surgical or Invasive 
+
+Procedure:
+none
+
+
+
+
+History of Present Illness:
+47 y/o M w/reported hx anxiety and depression, presented to [**First Name8 (NamePattern2) **]
+[**Last Name (NamePattern1) **] hospital last night at midnight stating he had taken 20
+Toprol tablets (100 mg each). He also reported taking 20
+percocet tablets and 20 ativan tablets (2 mg each), all in a
+suicide gesture. He reportedly did this around 9 pm. His wife
+later found him "staggering around [**Location (un) **] square" and brought
+him to the OSH at midnight.
+.
+While there, his HR was 77, BP 103/74. He received charcoal 50
+grams x2, golytely, atropine 1 mg IV, glucagon 3.5 mg IV, and
+was placed on the HIE protocol (0.5units/hour, D10 10 cc/kg/hr).
+His acetaminophen level there was 57. Urine tox screen was
+positive for benzodiazepines and opiates. He was transferred to
+[**Hospital1 18**] for further monitoring.
+.
+In our ED, his HR ranged 49 to 51. Tox was consulted who
+recommended discontinuing the insulin and D10 drips and
+administering glucagon for symptomatic hypotension and
+bradycardia.
+.
+Currently, he reports problems with his "stomach, bowels, and
+urinary tract" which have been going on for 3 months. He states
+he has chronic n/v/d and has had an extensive w/u which has been
+negative. Otherwise, the only change from his baseline is that
+he feels very sleepy.
+
+
+
+
+Past Medical History:
+
+# depression: requiring ECT, multiple suicide attempts and
+hospitalizations in the past. Psychiatrist is Dr. [**First Name (STitle) **] in
+[**Location (un) 32944**].
+# lung nodule
+# hyperlipidemia
+# hx IV heroin use
+# HTN
+# Seizures: once in setting of using wellbutrin, once at another
+time without known precipitant
+
+
+
+
+Social History:
+Lives at home with his wife from second marriage. He has 3
+children ages 21,22, and 25. He dropped out of school in 10th
+grade. Does not work. Smokes 1 ppd x years. Denies EtOH as he
+has been sober for >5 years and is active in AA.  He has had
+previous problems with alcohol, cocaine, and heroin. prior
+detention in jeuvenile [**Doctor Last Name **] for stealing cars.  also at least 2
+arrests as an adult.
+
+
+
+Family History:
+denies
+
+
+
+Physical Exam:
+
+T: 98.6 BP: 144/80 P: 59 R: 14 O2 sat: 97%RA
+Gen: pleasant male in NAD, sitting quietly in bed
+HEENT: NC, AT, perrl, anicteric, MM dry
+Neck: supple
+Lungs: bibasilar crackles, no wheezes or rhonchi
+CV: regular rhythm, bradycardic, no m/r/g
+Abd: soft, nt/nd, +bs
+Ext: no edema, 2+ dp bilaterally
+Neuro: pupils 1-2mm and reactive bilat. no tremor. tongue
+midline withou fasciculations, no nystagmus. moving all 4
+extremities symmectrically.
+
+Pertinent Results:
+[**2162-6-1**] 04:25AM   ASA-NEG ETHANOL-NEG ACETMNPHN-23.7
+bnzodzpn-NEG barbitrt-NEG tricyclic-NEG
+[**2162-6-1**] 04:25AM URINE  bnzodzpn-NEG barbitrt-NEG opiates-NEG
+cocaine-NEG amphetmn-NEG mthdone-NEG
+[**2162-6-1**] 04:25AM   WBC-9.0 RBC-4.36* HGB-13.8* HCT-40.2 MCV-92
+MCH-31.7 MCHC-34.4 RDW-15.3
+[**2162-6-1**] 04:25AM   PLT COUNT-352
+[**2162-6-1**] 04:25AM   NEUTS-56.8 LYMPHS-34.1 MONOS-5.1 EOS-3.1
+BASOS-0.9
+[**2162-6-1**] 04:25AM   GLUCOSE-67* UREA N-7 CREAT-1.0 SODIUM-135
+POTASSIUM-3.9 CHLORIDE-101 TOTAL CO2-27 ANION GAP-11
+[**2162-6-1**] 04:25AM   ALT(SGPT)-8 AST(SGOT)-15 CK(CPK)-38 ALK
+PHOS-73 AMYLASE-36 TOT BILI-0.4
+
+[**2162-6-1**]: EKG #1 sinus brady with QT/QTc 528/488.58
+[**2162-6-1**]: EKG #2 sinus brady with QT/QTc 482/469.15
+
+Brief Hospital Course:
+In brief the patient is a 47 y/o male w/hx depression, p/w
+beta-blocker, acetaminophen, and benzodiazepine overdose.
+.
+1. Overdose: In terms of beta-blocker, the patient was not
+bradycardic upon arrival to [**Hospital1 18**]. He was monitored for
+signficant bradycardia without events nor need for repeat
+glucagon.   In terms of acetaminophen, at 12 hours out from his
+ingestion his level is 23, which is in the no hepatic toxicity
+area of the nomogram. Also, his LFTs are completely normal. He
+was not thought to be a candidate for n-acetylcysteine to
+prevent hepatic toxicity. He already received charcoal x2. In
+terms of the benzo overdose, he was never significantly sedated.
+Repeat urine and blood tox screens were negative for
+benzodiazepines. He was followed by the toxicology consult
+service but needed no specific intervention.  Regarding this
+suicide attempt he was evaluated by the psychiatry service who
+recommended an inpatient psychiatric admission.  A Section 12
+was completed. A TSH, RPR, folate and B12 were pending at the
+time of discharge.
+.
+2. Dental Abscess: The patient will complete his prior
+prescribed therapy.
+.
+3. Hypertension: The patient's blood pressure was normal
+throughout his hospital stay.  He can follow-up with his primary
+care physician to have his anti-hypertensives resumed or
+changed.
+.
+4. Depression/Anxiety: He was evaluated by the psychiatry
+service as above. He will be discharged for inpatient
+psychiatric eval and therapy.  His Lexapro was discontinued
+pending further evaluation.
+.
+5. FEN: Regular diet.
+.
+6. Ppx: SQ heparin.
+.
+7. Dispo: Patient was discharged in stable condition ready for
+inpatient psychiatric care.
+
+
+
+Discharge Medications:
+1. Oxcarbazepine 300 mg Tablet Sig: One (1) Tablet PO BID (2
+times a day).
+2. Penicillin V Potassium 500 mg Tablet Sig: One (1) Tablet PO
+Q6H (every 6 hours) as needed for dental abscess for 6 days.
+3. Ativan 2 mg Tablet Sig: One (1) Tablet PO four times a day.
+4. Oxycodone 5 mg Tablet Sig: One (1) Tablet PO every eight (8)
+hours as needed for pain.
+5. Oxycodone 5 mg Tablet Sig: One (1) Tablet PO every 6-8 hours
+as needed for pain.
+
+
+Discharge Disposition:
+Extended Care
+
+Facility:
+[**Hospital3 26615**] Hospital - [**Location (un) 5028**]
+
+
+
+Discharge Diagnosis:
+Primary:
+Suicide Attempt
+Major depression
+.
+Secondary:
+Hypertension
+polysubstance abuse
+hyperlipidemia
+
+
+Discharge Condition:
+good. stable vital signs. section 12 for transfer to inpatient
+psychiatry facility.
+
+
+
+
+Discharge Instructions:
+You have been evaluated and treated for a medication overdose
+and suicide attempt.  The acute intoxication was managed with
+drug antidotes and supportive care.
+.
+Regarding your depression, it was felt that you would benefit
+from an inpatient psychiatric admission to further treat your
+depression particularly with regard to this suicide attempt.
+.
+Please the medication changes as described.
+.
+If you develop any new or concerning symptoms particularly
+dizziness or passing out, chest pain, shortness of breath, or
+fever to >101F; please contact the medical professionals at the
+psychiatric facility.
+
+
+
+Nsg Note 1900-[**2085**]
+
+Pt alert and oriented x3. MAE. denies pain, 1:1 at bedside. Pt slightly anxious for d/c, ativan given per protocol. EMS here to pick up pt. Pt transferred to [**First Name8 (NamePattern2) 567**] [**Last Name (NamePattern1) 2453**] Facility. Facility called, aware of pts arrival. PM meds given to pt. Pt concerned of his wallet, wondering where it was. Wife [**Name (NI) 2616**] called and per wife wallet is with her. Pt aware.No other issues, stable, d/c'd with EMS.
+
+
+
+TSICU Nursing Admission Note
+Pt admitted s/p Overdose.  reportedly had fight with wife at home, and took 20 Toprol XL, 20 2mg ativan, and 20 percocet.  He then left house, and was wandering around.  Wife found him staggering about, and called EMS.  Taken to OSH, found tylenol level in 50's.  Transferred to [**Hospital1 41**] for further evaluation.
+
+Neuro - Pt A&O [**2-13**], MAE's to command.  Feels slightly lethargic.  Moves around in bed well.  PERRLA, pupils slightly sluggish to react.  Complains of cramping pains in abdomen.
+
+CV - HR 55-75 sinus rhythm, no ectopy noted.  NBP 100-140 systolic.  + peripheral pulses.  Skin warm and dry.
+
+Resp - Lungs clear throughout, diminished at bases.  Currently with nasal cannula 2lpm maintaining sats 95%.  Denies shortness of breath.  Pt smokes 1 ppd.
+
+GI - Abdomen softly distended.  + bowel sounds throughout.  Used bedpan x2, with small amount liquid brown stool.  [**Month (only) **] have regular diet when feeling up to it.
+
+GU - Foley draining clear very light yellow urine in large amounts.  MICU team aware.
+
+Id - Tmax 98.6 rectal upon arrival.  Not currently on antibiotics.
+
+Skin - All areas intact.
+
+Psych/social - Pt with long hx of psychiatric disorders.  Depression and anxiety.  Has had ECT treatments in past.  Does have psychiatrist.  Per MICU team has been put in for psych eval.  Currently on suicide precautions.  Has sitter at bedside.  No family contact overnight.
+
+A - s/p overdose.  depression, abdominal cramping.
+
+Plan - continue to monitor per routine.  Continue to monitor and treat for pain PRN.  Possible transfer to floor later today.  OOB to chair.  Advance diet as tolerated.  Maintain suicide precautions.  follow up labs this afternoon 1600.  Continue to update pt and family of current plan of care.  Maintain safety.
+
+
+NPN 7a-7p
+
+no significant events today.
+
+neuro- pt somulent and lethargic, but arrousable and cooperative. oriented X3 this afternoon. OOB to commode, gait slightly unsteady limited assist given. pt on CIWA scale rating [**12-23**]. 2 mg ativan given po. psych in to evaluate pt. recommendations in chart, restart ativan as taken at home and d/c CIWA and probable inpatient psych tx when medically cleared.
+
+CV- SB to NSR, rate 47-70. EKG this afternoon wnl. QTC improved. .40 this pm. B/p 120's wnl. + peripheral pules. p-boots and heparin.
+
+resp- 2 liters nc. encouraged to cough and deep breathe. IS given. hx smoking. sat 100% on 2 liters.
+
+GI- abd soft c/o abd cramping ( pt given golytly in ED) cont to have black charcoal liquid stool. eating reg diet. poor appetite.
+
+gu- good u/o clear yellow. lytes pending for this afternoon.
+
+skin- no issues.
+
+toxicology- tox in to see pt this am. recommendations for repeat EKG this evening, change IVF to D5NS, and follow blood glucose due to potential for hypoglycemia.
+
+endo- bs wnl. cont to follow.
+
+social- wife and mother called. wife updated on condition. will be in tomorrow to visit. is appropriatly concerned over phone and encourages inpatient psych tx.
+
+[**Hospital **] transfer to medicine floor tonight with tele. follow psych and toxicology recommendations. eval ekg watch for bradycardia and prolonged QT. monitor for hypoglycemia, CIWA scale for now, watch for s/s withdrawl.
+
+
+
+
+Nursing (1900-0700)
+See flowsheet for details.
+
+Pt. neurologically intact.  Sleeping most of shift.  Forgot what day it was this a.m. and what day he was admitted.  Pt. c/o H/A, given tylenol twice this shift.  CIWA scale per flowsheet.  Asking for ativan this a.m. - will reassess do to sleepiness.
+
+Pt. has 1:1 sitter in room at all times.  Last eve denied SI, this a.m. states he's too weak to hurt himself.  When asked if he had the strength to hurt himself, would he, he replied "I don't know."  Pt. states his marriage is over.
+
+VSS.  Skin warm, dry.  Labs drawn, pending.
+
+Pt. in NAD.  Weaned to RA this a.m.
+
+Abd. benign.
+
+Pt. voided this a.m. (after being asked to), first void since foley was d/c'd.
+
+
+
+PLAN:
+?transfer to tele VS psych inpatient.
+Cont. CIWA protocol.
+?SS consult.
+Emotional support.
+
+
+T/SICU Nursing [**7-29**]
+Neuro: A&Ox3. Withdrawn affect. Suicide precautions maintained, 1:1 at bedside.. Verbal contract for safety.
+
+Pain: Complains of aching all over body, relieved with positioning.
+
+Re
+
+sp: Lungs clear, equal bilaterally, SPO2 97-100% on room air, no cough.
+
+CV: Sinus rhythm rate 56-70's without ectopy. Vitals normal as charted in flowsheets. Palpable distal pulses.
+
+GI: Abd soft, non-tender. Poor appetite. Ate most of dinner, but not breakfast or lunch.
+
+GU: Voids clear yellow urine qs.
+
+Endo: RISS with no coverage.
+
+Skin: Intact.
+
+ADT: Ambulated in [**Doctor Last Name 293**] 35 feet, wanted to return to bed. Refusing hygeine, awaiting shower.
+
+
+
+Plan: Maintain safety. CIWA. Increase activity. Dispo to be determined shortly, may be accepted to inpatient psych at [**First Name8 (NamePattern2) 567**] [**Last Name (NamePattern1) 2453**] Hospital this evening.

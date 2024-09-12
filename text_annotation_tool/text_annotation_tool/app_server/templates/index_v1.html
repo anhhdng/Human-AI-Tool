@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Annotation Tool</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <style>
+        .highlighted {
+            position: relative;
+            background-color: #ffdd57;
+            display: inline;
+        }
+        .deselect-btn {
+            position: absolute;
+            top: 0;
+            right: 0;
+            background-color: red;
+            color: white;
+            border: none;
+            cursor: pointer;
+            padding: 2px 5px;
+            font-size: 10px;
+            border-radius: 3px;
+            z-index: 10;
+            margin-left: 5px;
+        }
+        .feedback {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Text Annotation Tool</h1>
+        <div id="annotation-container">
+            <div id="sentence-input" contenteditable="true" placeholder="Loading..."></div>
+            <div id="controls">
+                <select id="suicide-class">
+                    <option value="">Select Class</option>
+                    <option value="ideation">Suicide Ideation</option>
+                    <option value="attempt">Suicide Attempt</option>
+                </select>
+            </div>
+            <div id="navigation">
+                <button id="prev-file">Previous</button>
+                <button id="next-file">Next</button>
+            </div>
+            <button id="submit-annotation">Annotate</button>
+            <div class="feedback">
+                <textarea id="feedback" placeholder="Provide your comments or feedback here..."></textarea>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let files = [];
+        let currentIndex = 0;
+        let startTime = Date.now();
+        let actions = [];
+
+        async function loadFiles() {
+            try {
+                const response = await fetch('http://127.0.0.1:8000/files');
+                const data = await response.json();
+                files = data.files;
+
+                if (files.length > 0) {
+                    loadFileContent(0);  // Load the first file automatically
+                } else {
+                    document.getElementById('sentence-input').innerHTML = "No files available.";
+                }
+            } catch (error) {
+                console.error('Error loading files:', error);
+                document.getElementById('sentence-input').innerHTML = "Failed to load files.";
+            }
+        }
+
+        async function loadFileContent(index) {
+            try {
+                const filename = files[index];
+                const response = await fetch(`http://127.0.0.1:8000/file/${filename}`);
+                const data = await response.json();
+                document.getElementById('sentence-input').innerHTML = data.content;
+                document.getElementById('suicide-class').value = "";
+                logAction('Loaded file', { filename });
+            } catch (error) {
+                console.error('Error loading file content:', error);
+                document.getElementById('sentence-input').innerHTML = "Failed to load file content.";
+            }
+        }
+
+        function highlightSelection() {
+            const selection = window.getSelection();
+            if (selection.rangeCount > 0) {
+                const range = selection.getRangeAt(0);
+                if (range && !range.collapsed) {
+                    const span = document.createElement('span');
+                    span.className = 'highlighted';
+                    const contents = range.cloneContents();
+                    span.appendChild(contents);
+
+                    const deselectBtn = document.createElement('button');
+                    deselectBtn.className = 'deselect-btn';
+                    deselectBtn.textContent = 'x';
+                    deselectBtn.onclick = function(e) {
+                        e.stopPropagation();
+                        const parentNode = span.parentNode;
+                        while (span.firstChild) {
+                            parentNode.insertBefore(span.firstChild, span);
+                        }
+                        parentNode.removeChild(span);
+                        logAction('Deselected text', { text: contents.textContent });
+                    };
+
+                    range.deleteContents();
+                    range.insertNode(span);
+                    span.appendChild(deselectBtn);
+
+                    selection.removeAllRanges();
+                    logAction('Highlighted text', { text: contents.textContent });
+                }
+            }
+        }
+
+        document.getElementById('sentence-input').addEventListener('mouseup', highlightSelection);
+        document.getElementById('sentence-input').addEventListener('keyup', highlightSelection);
+
+        document.getElementById('submit-annotation').onclick = function() {
+            const container = document.getElementById('sentence-input');
+            const suicideClass = document.getElementById('suicide-class').value;
+            const feedback = document.getElementById('feedback').value;
+
+            let annotatedText = container.innerHTML;
+
+            const highlightedElements = container.querySelectorAll('span.highlighted');
+            let highlightedText = [];
+            highlightedElements.forEach(span => {
+                highlightedText.push(span.textContent);
+            });
+
+            const data = {
+                sentences: [container.textContent],
+                highlighted_text: highlightedText,
+                suicide_class: suicideClass,
+                annotated_html: annotatedText,
+                actions: actions,
+                feedback: feedback
+            };
+
+            fetch('/annotate', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(data),
+            })
+            .then(response => response.json())
+            .then(data => {
+                console.log('Success:', data);
+            })
+            .catch((error) => {
+                console.error('Error:', error);
+            });
+        };
+
+        document.getElementById('next-file').onclick = function() {
+            if (currentIndex < files.length - 1) {
+                currentIndex++;
+                loadFileContent(currentIndex);
+            }
+        };
+
+        document.getElementById('prev-file').onclick = function() {
+            if (currentIndex > 0) {
+                currentIndex--;
+                loadFileContent(currentIndex);
+            }
+        };
+
+        function logAction(action, details) {
+            actions.push({
+                action: action,
+                details: details,
+                timestamp: Date.now() - startTime
+            });
+        }
+
+        window.onload = function() {
+            loadFiles();  // Fetch files and load the first one automatically
+        };
+    </script>
+</body>
+</html>

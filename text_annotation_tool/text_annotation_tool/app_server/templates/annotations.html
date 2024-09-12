@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Annotations</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>User Annotations</h1>
+        <h2>Logged in as: {{ user }}</h2>
+        <ul>
+            {% for annotation in annotations %}
+                <li>{{ annotation.text }} ({{ annotation.suicide_class }})</li>
+                <p>Comment: {{ annotation.comment }}</p>
+            {% endfor %}
+        </ul>
+    </div>
+</body>
+</html>

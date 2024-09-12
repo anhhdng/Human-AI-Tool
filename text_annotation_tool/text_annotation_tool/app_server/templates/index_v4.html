@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Annotation Tool</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <style>
+        .highlighted {
+            position: relative;
+            background-color: #ffdd57;
+            display: inline;
+            cursor: pointer;
+        }
+        .highlighted.deselected {
+            background-color: #f0f0f0;
+        }
+        .deselect-btn {
+            position: absolute;
+            top: 0;
+            right: 0;
+            background-color: red;
+            color: white;
+            border: none;
+            cursor: pointer;
+            padding: 2px 5px;
+            font-size: 10px;
+            border-radius: 3px;
+            z-index: 10;
+        }
+        .feedback, .annotation-controls {
+            margin-top: 10px;
+        }
+        .annotation-controls select {
+            margin-right: 10px;
+        }
+        #comment-input {
+            margin-top: 10px;
+            width: 100%;
+            height: 100px;
+        }
+        #highlight-info {
+            margin-top: 10px;
+        }
+        #highlight-info p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Text Annotation Tool</h1>
+        <div id="annotation-container">
+            <div id="sentence-input" contenteditable="true" placeholder="Loading..."></div>
+            <div class="annotation-controls">
+                <select id="suicide-class">
+                    <option value="">Select Class</option>
+                    <option value="ideation">Suicide Ideation</option>
+                    <option value="attempt">Suicide Attempt</option>
+                </select>
+                <button id="annotate-highlight">Annotate Highlight</button>
+            </div>
+            <div id="highlight-info">
+                <p>Highlighted Text:</p>
+                <p id="highlighted-text-display">No highlighted text</p>
+            </div>
+            <div class="feedback">
+                <textarea id="comment-input" placeholder="Provide comments related to the highlighted text here..."></textarea>
+            </div>
+            <div id="navigation">
+                <button id="prev-file">Previous</button>
+                <button id="next-file">Next</button>
+            </div>
+            <button id="submit-annotation">Submit Annotations</button>
+        </div>
+    </div>
+
+    <script>
+        let files = [];
+        let currentIndex = 0;
+        let startTime = Date.now();
+        let highlightedElements = [];
+        let actions = [];
+
+        async function loadFiles() {
+            try {
+                const response = await fetch('http://127.0.0.1:8000/files');
+                const data = await response.json();
+                files = data.files;
+
+                if (files.length > 0) {
+                    loadFileContent(0);  // Load the first file automatically
+                } else {
+                    document.getElementById('sentence-input').innerHTML = "No files available.";
+                }
+            } catch (error) {
+                console.error('Error loading files:', error);
+                document.getElementById('sentence-input').innerHTML = "Failed to load files.";
+            }
+        }
+
+        async function loadFileContent(index) {
+            try {
+                const filename = files[index];
+                const response = await fetch(`http://127.0.0.1:8000/file/${filename}`);
+                const data = await response.json();
+                document.getElementById('sentence-input').innerHTML = data.content;
+                document.getElementById('suicide-class').value = "";
+                document.getElementById('comment-input').value = "";
+                document.getElementById('highlighted-text-display').textContent = "No highlighted text";
+                highlightedElements = [];
+                logAction('Loaded file', { filename });
+            } catch (error) {
+                console.error('Error loading file content:', error);
+                document.getElementById('sentence-input').innerHTML = "Failed to load file content.";
+            }
+        }
+
+        function highlightSelection() {
+            const selection = window.getSelection();
+            if (selection.rangeCount > 0) {
+                const range = selection.getRangeAt(0);
+                if (range && !range.collapsed) {
+                    const span = document.createElement('span');
+                    span.className = 'highlighted';
+                    const contents = range.cloneContents();
+                    span.appendChild(contents);
+
+                    const deselectBtn = document.createElement('button');
+                    deselectBtn.className = 'deselect-btn';
+                    deselectBtn.textContent = 'x';
+                    deselectBtn.onclick = function(e) {
+                        e.stopPropagation();
+                        if (span.classList.contains('deselected')) {
+                            span.classList.remove('deselected');
+                            logAction('Re-selected text', { text: contents.textContent });
+                        } else {
+                            span.classList.add('deselected');
+                            logAction('Deselected text', { text: contents.textContent });
+                        }
+                        updateHighlightedTextDisplay();
+                    };
+
+                    span.appendChild(deselectBtn);
+                    range.deleteContents();
+                    range.insertNode(span);
+                    selection.removeAllRanges();
+                    highlightedElements.push(span);
+                    logAction('Highlighted text', { text: contents.textContent });
+                    updateHighlightedTextDisplay();
+                }
+            }
+        }
+
+        function updateHighlightedTextDisplay() {
+            const selectedHighlights = highlightedElements.filter(span => !span.classList.contains('deselected'));
+            const highlightedText = selectedHighlights.map(span => {
+                const range = document.createRange();
+                range.selectNodeContents(span);
+                const start = document.getElementById('sentence-input').innerText.indexOf(span.textContent);
+                const end = start + span.textContent.length;
+
+                return `${span.textContent} (Start: ${start}, End: ${end}, Class: ${span.dataset.suicideClass || 'None'})`;
+            }).join(' | ');
+
+            document.getElementById('highlighted-text-display').textContent = highlightedText || "No highlighted text";
+        }
+
+        document.getElementById('sentence-input').addEventListener('mouseup', highlightSelection);
+        document.getElementById('sentence-input').addEventListener('keyup', highlightSelection);
+
+        document.getElementById('annotate-highlight').onclick = function() {
+            const suicideClass = document.getElementById('suicide-class').value;
+            const comment = document.getElementById('comment-input').value;
+
+            highlightedElements.forEach(span => {
+                if (!span.classList.contains('deselected')) {
+                    span.dataset.suicideClass = suicideClass;
+                    span.dataset.comment = comment;
+                }
+            });
+
+            updateHighlightedTextDisplay(); // Update display to reflect the new annotations
+            logAction('Annotated highlighted text', { suicide_class: suicideClass, comment: comment });
+        };
+
+        document.getElementById('submit-annotation').onclick = function() {
+            const container = document.getElementById('sentence-input');
+            const suicideClass = document.getElementById('suicide-class').value;
+            const comment = document.getElementById('comment-input').value;
+
+            let annotatedText = container.innerHTML;
+            let highlightedText = [];
+            highlightedElements.forEach(span => {
+                if (!span.classList.contains('deselected')) {
+                    const range = document.createRange();
+                    range.selectNodeContents(span);
+                    const start = container.innerText.indexOf(span.textContent);
+                    const end = start + span.textContent.length;
+
+                    highlightedText.push({
+                        text: span.textContent,
+                        suicide_class: span.dataset.suicideClass,
+                        comment: span.dataset.comment,
+                        start_index: start,
+                        end_index: end
+                    });
+                }
+            });
+
+            const data = {
+                sentences: [container.textContent],
+                highlighted_text: highlightedText,
+                annotated_html: annotatedText,
+                actions: actions,
+                feedback: comment
+            };
+
+            fetch('/annotate', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(data),
+            })
+            .then(response => response.json())
+            .then(data => {
+                console.log('Success:', data);
+            })
+            .catch((error) => {
+                console.error('Error:', error);
+            });
+        };
+
+        document.getElementById('next-file').onclick = function() {
+            if (currentIndex < files.length - 1) {
+                currentIndex++;
+                loadFileContent(currentIndex);
+            }
+        };
+
+        document.getElementById('prev-file').onclick = function() {
+            if (currentIndex > 0) {
+                currentIndex--;
+                loadFileContent(currentIndex);
+            }
+        };
+
+        function logAction(action, details) {
+            actions.push({
+                action: action,
+                details: details,
+                timestamp: Date.now() - startTime
+            });
+        }
+
+        window.onload = function() {
+            loadFiles();  // Fetch files and load the first one automatically
+        };
+    </script>
+</body>
+</html>
